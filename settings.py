@@ -34,7 +34,8 @@ REDIS_PORT = 6379
 #REDIS_PASS = 'redisP@ssw0rd'
 
 # LOG 等级
-LOG_LEVEL = 'DEBUG'
+# LOG_LEVEL = 'DEBUG'
+LOG_LEVEL = 'INFO'
 
 #默认情况下,RFPDupeFilter 只记录第⼀个重复请求。
 # 将 DUPEFILTER_DEBUG 设置为 True 会记录所有重复的请求。
